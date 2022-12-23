@@ -1,5 +1,10 @@
-$bg-color: crimson;
-
-.wrapper {
-  background-color: $bg-color;
-}
+@import "reset";
+@import "variables";
+@import "mixins";
+@import "global";
+@import "header";
+@import "index";
+@import "about";
+@import "courses";
+@import "contact";
+@import "pages";

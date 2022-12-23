@@ -1,0 +1,143 @@
+.section50-50,
+.footer {
+  @include section50;
+
+  .contact-form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    form {
+      width: 75%;
+      * {
+        margin: 2rem 0;
+      }
+      input,
+      textarea {
+        width: 100%;
+        height: 4rem;
+        display: block;
+        border: none;
+        outline: none;
+        padding: 0 1rem;
+        border-radius: 2rem;
+      }
+
+      textarea {
+        height: 20rem;
+        padding: 1rem;
+      }
+
+      .btn-submit {
+        width: 15rem;
+        height: 4rem;
+        display: inline-block;
+        background-color: #c41e55;
+        border: none;
+        text-decoration: none;
+        border-radius: 2rem;
+        cursor: pointer;
+        color: white;
+        font-size: 2rem;
+        /* margin-top: 2rem; */
+        text-align: center;
+      }
+    }
+  }
+}
+
+.footer-container {
+  background-color: rgb(227, 229, 231);
+  .contact-heading {
+    text-align: center;
+    font-size: $small;
+    padding: $medium;
+  }
+
+  .footer {
+    margin: 1rem;
+  }
+}
+
+.footer-bottom {
+  display: flex;
+  background-color: $primary;
+  padding: 1.5rem;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+.bg-color {
+  background-color: rgb(245, 245, 245);
+}
+
+.container-section-100 {
+  @include section100;
+}
+// .footer {
+//   display: flex;
+//   flex-direction: column;
+//   min-height: 50rem;
+//   background-color: rgba(11, 60, 219, 0.616);
+//   padding: 5rem 0 0 0;
+
+//   h1 {
+//     text-align: center;
+//     font-size: $small;
+//     padding-bottom: 3rem;
+//     color: $color-white;
+//   }
+
+//   .contact-form {
+//     display: flex;
+//     width: 100%;
+//     justify-content: center;
+//     align-items: center;
+
+//     form {
+//       width: 75%;
+//       * {
+//         margin: 2rem 0;
+//       }
+//       input,
+//       textarea {
+//         width: 100%;
+//         height: 4rem;
+//         display: block;
+//         border: none;
+//         outline: none;
+//         padding: 0 1rem;
+//         border-radius: 2rem;
+//       }
+
+//       textarea {
+//         height: 20rem;
+//         padding: 1rem;
+//       }
+
+//       .btn-submit {
+//         width: 15rem;
+//         height: 4rem;
+//         display: inline-block;
+//         background-color: #c41e55;
+//         border: none;
+//         text-decoration: none;
+//         border-radius: 2rem;
+//         cursor: pointer;
+//         color: white;
+//         font-size: 2rem;
+//         /* margin-top: 2rem; */
+//         text-align: center;
+//       }
+//     }
+//   }
+
+//   .footer-bottom {
+//     display: flex;
+//     background-color: darkgoldenrod;
+//     padding: 1.5rem;
+//     justify-content: center;
+//     font-size: 1.3rem;
+//   }
+// }

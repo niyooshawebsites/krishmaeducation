@@ -1,0 +1,74 @@
+.header {
+  display: flex;
+  height: 7rem;
+  background-color: $primary;
+  padding: 0 1rem;
+}
+
+.navbar {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.navbar-brand {
+  width: 10%;
+
+  .logo {
+    font-size: 3rem;
+    color: $color-white;
+  }
+}
+
+.nav {
+  display: flex;
+  flex-grow: 1;
+  list-style: none;
+  justify-content: flex-end;
+
+  .nav-item,
+  .sub-nav-item {
+    display: inline-block;
+    position: relative;
+    font-size: 2rem;
+    padding: 0 2rem;
+
+    .nav-link,
+    .sub-nav-link {
+      text-decoration: none;
+      color: $color-white;
+    }
+
+    .nav-link :hover {
+      color: black;
+    }
+  }
+}
+
+.sub-nav {
+  display: none;
+  border: 1px solid orangered;
+  position: absolute;
+  top: 4.5rem;
+  left: 0%;
+  width: max-content;
+  list-style: none;
+  padding: 1rem;
+  background-color: $primary;
+
+  .sub-nav-item {
+    display: block;
+    margin: 1.2rem 0;
+
+    // .sub-nav-item {
+    //   text-decoration: none;
+    //   color: $color-white;
+    // }
+  }
+}
+
+.course-dropdown :hover {
+  .sub-nav {
+    display: block;
+  }
+}

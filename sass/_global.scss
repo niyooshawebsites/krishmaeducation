@@ -1,0 +1,24 @@
+:root {
+  font-size: 62.5%;
+  font-family: Helvetica, arial, sans-serif;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: $extra-large;
+  height: $extra-small;
+  background-color: $primary;
+  color: $color-white;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: $extra-small;
+  margin-top: $extra-small;
+  border-radius: 2rem;
+}
+
+.btn:hover {
+  background-color: black;
+  color: $primary;
+}
